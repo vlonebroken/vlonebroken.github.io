@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Hey</title>
+    <link rel="icon" href="media/group invert.png" type="image/icon type">
+    <link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
+    <link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+    <style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+    <style lang="en" type="text/css" id="dark-mode-native-style"></style>
+    <style lang="en" type="text/css" id="dark-mode-native-sheet"></style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+    </style>
+    <style>
+        body {
+            background-color: #000000;
+
+        }
+
+        h1 {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 17px;
+            color:#ffffff;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 17px;
+            color:#ffffff;
+            position: absolute;
+        }
+
+        .logo1 {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .v{
+            display: block;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+
+        p {
+            font-family: 'DM Sans', sans-serif;
+            color: #ffffff;
+            padding: 20px 200px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            margin: 4px 2px;
+            border-radius: 40px;
+            font-weight: bold;
+        }
+
+        .button {
+            font-family: 'DM Sans', sans-serif;
+            background-color: black;
+            border:1px solid black;
+            color: white;
+            padding: 10px 200px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 40px;
+            font-weight: bold;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            transition:0.3s;
+        }
+
+        button:hover {
+            color:gray;
+            border:1px solid gray;
+        }
+
+        .splash {
+            position: fixed;
+            top: -75px;
+            left: 0;
+            background-color: #000000;
+            transition: 1s;
+            z-index: 200;
+            
+        }
+
+        .display-none {
+            position: fixed;
+            background-color: #000000;
+            top: -75px;
+            left: 0;
+            transition: 1s;
+            z-index: 1;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fade-in {
+            position: fixed;
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+            height: 110%;
+            width: 100%;
+            z-index: 999; 
+        }
+        .fade-in2 {
+            position:fixed;
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+            height: 107.75%;
+            width: 100%;
+            z-index: 999; 
+        }
+
+        .fade-in3 {
+            position:fixed;
+            opacity: 0;
+            animation: fadeIn 0s ease-in forwards;
+            height: 107.75%;
+            width: 100%;
+            z-index: 998; 
+        }
+
+        h3 {
+            font-family: 'DM Sans', sans-serif;
+            color: #ffffff;
+            font-size: 10px;
+            text-align: center;
+            text-decoration: none;
+            padding: 0px 0px;
+            margin: 0px 0px;
+        }
+        
+        label {
+            position:absolute;
+            font-family: 'DM Sans', sans-serif;
+            color: #ffffff;
+            padding: 20px 200px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 40px;
+            font-weight: bold;   
+            z-index: 999; 
+        }
+
+        .button2 {
+            font-family: 'DM Sans', sans-serif;
+            background-color: black;
+            border:1px solid black;
+            color: white;
+            padding: 10px 100px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 40px;
+            font-weight: bold;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            transition:0.3s;
+        } 
+        
+        
+        .button2:hover {
+            color:gray;
+            border:1px solid black;
+        }
+
+    </style>
+    <body>
+        <div class="splash">
+            <img class = "fade-in2" src="media/ezgif-2-1c4ce0d62e.gif"></img>
+            <img class = "fade-in" src="media/Artboard 1.png"></img>
+            <img class = "fade-in3" src="media/Black_colour.jpg.webp"></img>            
+        </div>
+        <img class = "logo1" src="media/group invert.png" height="200" width="400" ></img>
+        <h1>Welcome back...</h1>
+        <br>
+        <h1>🟈</h1>
+        <p>‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</p>
+        <form method="GET" action="socials.html">
+            <button type="submit" class="button">Socials</button>
+        </form>
+        <br>
+        <br>
+        <form method="GET" action="gaming.html">
+            <button type="submit" class="button">Gaming</button>
+        </form>
+        <br>
+        <br>
+        <form method="GET" action="music.html">
+            <button type="submit" class="button">Music</button>
+        </form>
+        <br>
+        <br>
+        <form method="GET" action="cracks.html">
+            <button type="submit" class="button">FreeShhh</button>
+        </form>
+        <br>
+        <br>
+        <form method="GET" action="misc.html">
+            <button type="submit" class="button">Miscellaneous</button>
+        </form>
+        <p>‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</p>
+        <form action="https://www.google.com/search">
+            <input type="text" id="q" name="q" class="button2" placeholder= "Search" autocomplete="off">
+        </form>
+        <img class = "v" src="media/Vlone_29_1.gif" height="20" width="20" ></img>
+        <br>
+        <h3>Copyright © 2002 All Rights Reserved.</h3>
+    </body>
+        <script src="scripts/splash.js"></script>
+    </body>
+
