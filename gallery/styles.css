@@ -12,7 +12,7 @@ h1 {
     height:200%;
     z-index: 99999999999;
     margin-left:-90%;
-    top: 6%;
+    top: 8%;
 }
 .v {
     width:90%;
@@ -30,15 +30,15 @@ h1 {
 .button1 {
     position: absolute;
     color: black;
-    top: 2%;
-    right: 2%; 
+    top: 4%;
+    left: 2%; 
 }
 
 .button2 {
     position: absolute;
     color: black;
-    top: 4%;
-    right: 2%; 
+    top: 6%;
+    left: 2%;  
 }
 
 .button3{
@@ -56,10 +56,10 @@ h1 {
     .bruh {
         position: absolute;
         width:101%;
-        height:94%;
+        height:92%;
         z-index: 99999999999;
         margin-left:-73%;
-        top: 6%;
+        top: 8%;
     }
     .v {
         width:46%;
@@ -76,15 +76,15 @@ h1 {
     .button1 {
         position: absolute;
         color: black;
-        top: 2%;
-        right: 2%; 
+        top: 4%;
+        left: 2%; 
     }
 
     .button2 {
         position: absolute;
         color: black;
-        top: 4%;
-        right: 2%; 
+        top: 6%;
+        left: 2%; 
     }
 
     .button3{
