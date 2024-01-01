@@ -10,4 +10,28 @@
     <div class="col-md-12 col-lg-12" style="width:50%;margin-left:25%;height:40%;">
         <div class='sk-ww-pinterest-board' data-embed-id='248701'></div><script src='https://widgets.sociablekit.com/pinterest-board/widget.js' async defer></script>
     </div>
+
+    <a href="motivation.html" class="button1">motivation</a>
+    <br>
+    <a href="https://twitter.com/vlonebroken_/media" class="button2">archive</a>
+
+    <div id="clock" class="clock"></div>
+    <script>
+        function updateClock() {
+            var now = new Date();
+            var dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            var timeOptions = { hour: 'numeric', minute: 'numeric', second: 'numeric', timeZone: 'UTC', timeZoneName: 'short' };
+
+            var dateString = now.toLocaleDateString('en-US', dateOptions);
+            var timeString = now.toLocaleTimeString('en-US', timeOptions);
+
+            var clockElement = document.getElementById('clock');
+            clockElement.textContent = dateString + ', ' + timeString;
+
+            setTimeout(updateClock, 1000); // Update every 1 second
+        }
+
+        // Initial call to display clock
+        updateClock();
+    </script>
 </body>
