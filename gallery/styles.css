@@ -48,7 +48,22 @@ h1 {
     right: 2%;
 }
 
+.tutorial_link{
+    color:white !important;
+    display: hidden;
+    pointer-events: none; 
+    cursor: pointer;
+}
+
+
 @media only screen and (min-width: 900px) {
+
+    body{
+        margin: 0; 
+        height: 100%; 
+        overflow: hidden;
+    }
+
     h1 {
         margin-top: 10%;
     }
@@ -92,6 +107,13 @@ h1 {
         color: black;
         top: 2%;
         right: 2%; 
+    }
+
+    .tutorial_link{
+        color:white !important;
+        display: hidden;
+        pointer-events: none; 
+        cursor: pointer;
     }
 
   }
